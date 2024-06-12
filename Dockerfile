@@ -27,4 +27,3 @@ RUN chmod 744 /modsbots.sh
 
 
 CMD ["/bin/bash","/modsbots.sh"]
-USER 10008
