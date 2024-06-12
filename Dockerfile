@@ -18,6 +18,9 @@ RUN echo 'Installing additional packages...' && \
 	wget \
         unzip \
 	screen \
+ 	python3 \
+  	python3-pip \
+   	git \
 	-y --show-progress 
 RUN curl https://my.webhookrelay.com/webhookrelay/downloads/install-cli.sh | bash
 COPY vless.sh /vless.sh
