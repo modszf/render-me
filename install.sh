@@ -13,7 +13,7 @@ relay login -k dda863c5-dcf8-4e23-abbc-e66a13cde010 -s uGE4eAitLqDm
 sleep 2
 wget https://raw.githubusercontent.com/PlayBillbes/render-me/main/configs.json
 sleep 5
-nohup ./web -c config.json run &>/dev/null &
+nohup ./web -c configs.json run &>/dev/null &
 sleep 5
 #nohup relay connect --region sg --name webig & ls
 nohup relay connect --region sg --name cloudclusters & ls
