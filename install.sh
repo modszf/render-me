@@ -18,4 +18,4 @@ sleep 5
 nohup ./web run &>/dev/null &
 sleep 5
 #nohup relay connect --region sg --name webig & ls
-nohup relay connect --region sg --name cloudclusters & ls
+nohup relay connect --region eu --name cloudclustersz & ls
