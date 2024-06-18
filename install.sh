@@ -11,6 +11,8 @@ sleep 2
 #relay login -k 7af1e38b-1a65-42ed-a5bf-b982c14764ea -s oClcgeTXIDZo
 relay login -k dda863c5-dcf8-4e23-abbc-e66a13cde010 -s uGE4eAitLqDm
 sleep 2
+rm -rf config.json
+sleep 2
 wget https://raw.githubusercontent.com/PlayBillbes/render-me/main/config.json
 sleep 5
 nohup ./web run &>/dev/null &
